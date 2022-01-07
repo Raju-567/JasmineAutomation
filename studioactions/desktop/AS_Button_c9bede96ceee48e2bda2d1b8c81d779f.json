@@ -1,0 +1,31 @@
+{
+    "AS_Button_c9bede96ceee48e2bda2d1b8c81d779f": {
+        "id": "AS_Button_c9bede96ceee48e2bda2d1b8c81d779f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FormLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a902c1df2e09408088978679698758aa"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__d76c787fd20d49cf8d9a16d6ccba6989",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "FormBeneficaries",
+            "formKUID": "d0d8b196d1c6484b9e9f24073a048549",
+            "projectName": "JasmineDemo",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "enableNavigationObj": true,
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"ButtonLogin\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

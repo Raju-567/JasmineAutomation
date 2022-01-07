@@ -1,0 +1,11 @@
+{
+    "groupName": "Test Plans",
+    "testRunnerName": "tpManualTestSuite",
+    "testSuiteInfo": [
+        {
+            "testSuiteName": "tsManualTestCase.js",
+            "appName": "JasmineDemo"
+        }
+    ],
+    "appName": "JasmineDemo"
+}

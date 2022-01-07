@@ -1,0 +1,62 @@
+[
+    {
+        "testName": "ts1",
+        "appName": "JasmineDemo",
+        "result": "jasmineReport22-12-2021_16_07_30.html",
+        "passedCount": 0,
+        "failedCount": 1,
+        "pendingCount": 0,
+        "timeStamp": "22-12-2021 16:07:30",
+        "runnerType": "TestSuiteRunner",
+        "channelName": "Desktop",
+        "crashed": false
+    },
+    {
+        "testName": "ts1",
+        "appName": "JasmineDemo",
+        "result": "jasmineReport22-12-2021_16_04_46.html",
+        "passedCount": 1,
+        "failedCount": 0,
+        "pendingCount": 0,
+        "timeStamp": "22-12-2021 16:04:46",
+        "runnerType": "TestSuiteRunner",
+        "channelName": "Desktop",
+        "crashed": false
+    },
+    {
+        "testName": "ts1",
+        "appName": "JasmineDemo",
+        "result": "jasmineReport22-12-2021_16_04_31.html",
+        "passedCount": 1,
+        "failedCount": 0,
+        "pendingCount": 0,
+        "timeStamp": "22-12-2021 16:04:31",
+        "runnerType": "TestSuiteRunner",
+        "channelName": "Desktop",
+        "crashed": true
+    },
+    {
+        "testName": "tcLoginUserName",
+        "appName": "JasmineDemo",
+        "result": "jasmineReport22-12-2021_15_38_45.html",
+        "passedCount": 1,
+        "failedCount": 0,
+        "pendingCount": 0,
+        "timeStamp": "22-12-2021 15:38:45",
+        "runnerType": "TestCaseRecorder",
+        "channelName": "Desktop",
+        "crashed": false
+    },
+    {
+        "testName": "ts1",
+        "appName": "JasmineDemo",
+        "result": "jasmineReport22-12-2021_11_05_10.html",
+        "passedCount": 1,
+        "failedCount": 0,
+        "pendingCount": 0,
+        "timeStamp": "22-12-2021 11:05:10",
+        "runnerType": "TestSuiteRunner",
+        "channelName": "Desktop",
+        "crashed": false
+    }
+]

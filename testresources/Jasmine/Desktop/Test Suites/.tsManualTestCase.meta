@@ -1,0 +1,18 @@
+{
+    "groupName": "Test Suites",
+    "testSuiteName": "tsManualTestCase",
+    "testCaseInfo": [
+        {
+            "testcaseName": "testCaseManual.js",
+            "appName": "JasmineDemo",
+            "selectedDataset": "dataset"
+        }
+    ],
+    "appName": "JasmineDemo",
+    "usedBy": {
+        "JasmineDemo": [
+            "tpManualTestSuite.js",
+            "tp2.js"
+        ]
+    }
+}

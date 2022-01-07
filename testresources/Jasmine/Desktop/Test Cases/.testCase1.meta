@@ -1,0 +1,127 @@
+{
+    "testCaseName": "testCase1",
+    "testSuiteName": "Test Cases",
+    "channelName": "Desktop",
+    "steps": [
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "FormLogin.TextBoxUserName",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "d18381d3-a4d1-57ae-fa8a-545b22e10351",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "FormLogin.TextBoxUserName"
+                    },
+                    "appName": "JasmineDemo"
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "actionName": "Scroll To",
+            "actionIconClassName": "assets/widget_icons/scroll.svg",
+            "activeActionIconClassName": "assets/widget_icons/activescroll.svg",
+            "entity": "FormLogin.TextBoxUserName",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "9637b29b-d8f0-e395-9ee5-6121a6a5e3ae",
+                "messageType": "scrollToWidget",
+                "messageData": {
+                    "widgetType": "scrollToWidget",
+                    "metadata": {
+                        "scrollToWidget": "FormLogin.TextBoxUserName"
+                    },
+                    "appName": "JasmineDemo"
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "actionName": "Assert",
+            "actionIconClassName": "assets/widget_icons/assert.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeassert.svg",
+            "entity": "FormLogin.TextBoxUserName",
+            "metaEditable": true,
+            "dispMeta": {
+                "prop": "text"
+            },
+            "dataVariable": "TextBoxUserName",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "f81a0e0a-8ed0-f16c-855e-7535aae7be12",
+                "messageType": "Assert",
+                "messageData": {
+                    "widgetType": "Assert",
+                    "metadata": {
+                        "assertType": "toEqual",
+                        "assertOnElement": "FormLogin.TextBoxUserName",
+                        "assertOnProperty": "text",
+                        "negationEnabled": false,
+                        "dataVariable": "TextBoxUserName"
+                    },
+                    "appName": "JasmineDemo"
+                }
+            },
+            "codeNotReady": false,
+            "stepError": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Type Text",
+            "actionIconClassName": "assets/widget_icons/text_box.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetext_box.svg",
+            "entity": "FormLogin.TextBoxPassword",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "DeviceID": "web",
+                    "widgetPath": "FormLogin.TextBoxPassword",
+                    "widgetType": "textbox",
+                    "actionType": "enterText",
+                    "metadata": {
+                        "dataVariable": "TextBoxPassword"
+                    },
+                    "appName": "JasmineDemo"
+                },
+                "UUID": "18569850-c231-4652-9a00-f4beec0ce774",
+                "_cached": true
+            },
+            "codeNotReady": false,
+            "_cached": true,
+            "metaEditable": true,
+            "dataVariable": "TextBoxPassword"
+        }
+    ],
+    "_currentForm": "JasmineDemo/FormLogin",
+    "timeout": 0,
+    "dataFileName": "testCase1_data",
+    "dataFileVarName": "testcaseData_1640168351219",
+    "datasetName": "dataset",
+    "appName": "JasmineDemo",
+    "usedBy": {}
+}

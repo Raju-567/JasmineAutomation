@@ -1,0 +1,105 @@
+{
+    "testCaseName": "tcLoginUserName",
+    "testSuiteName": "Test Cases",
+    "channelName": "Desktop",
+    "usedBy": {
+        "JasmineDemo": []
+    },
+    "steps": [
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "FormLogin.TextBoxUserName",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "32e73d6f-f349-ffc2-27b8-e4e5a5c25a47",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "FormLogin.TextBoxUserName"
+                    },
+                    "appName": "JasmineDemo"
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Type Text",
+            "actionIconClassName": "assets/widget_icons/text_box.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetext_box.svg",
+            "entity": "FormLogin.TextBoxUserName",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "DeviceID": "web",
+                    "widgetPath": "FormLogin.TextBoxUserName",
+                    "widgetType": "textbox",
+                    "actionType": "enterText",
+                    "metadata": {
+                        "dataVariable": "TextBoxUserName"
+                    },
+                    "appName": "JasmineDemo"
+                },
+                "UUID": "d04b138b-af38-4036-9a2c-9e8eb0de5a11",
+                "_cached": true
+            },
+            "codeNotReady": false,
+            "_cached": true,
+            "metaEditable": true,
+            "dataVariable": "TextBoxUserName"
+        },
+        {
+            "actionName": "Assert",
+            "actionIconClassName": "assets/widget_icons/assert.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeassert.svg",
+            "entity": "FormLogin.TextBoxUserName",
+            "metaEditable": true,
+            "dispMeta": {
+                "prop": "text"
+            },
+            "dataVariable": "TextBoxUserName",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "80380f57-f89f-2848-78d8-d073e69f19fb",
+                "messageType": "Assert",
+                "messageData": {
+                    "widgetType": "Assert",
+                    "metadata": {
+                        "assertType": "toEqual",
+                        "assertOnElement": "FormLogin.TextBoxUserName",
+                        "assertOnProperty": "text",
+                        "negationEnabled": false,
+                        "dataVariable": "TextBoxUserName"
+                    },
+                    "appName": "JasmineDemo"
+                }
+            },
+            "codeNotReady": false,
+            "stepError": false
+        }
+    ],
+    "_currentForm": "JasmineDemo/FormLogin",
+    "timeout": 0,
+    "dataFileName": "tcLoginUserName_data",
+    "dataFileVarName": "testcaseData_1638898040732",
+    "datasetName": "dataset",
+    "appName": "JasmineDemo"
+}

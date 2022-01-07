@@ -1,0 +1,17 @@
+{
+    "testCaseName": "testCaseManual",
+    "testSuiteName": "Test Cases",
+    "channelName": "Desktop",
+    "_currentForm": "JasmineDemo/FormLogin",
+    "timeout": 0,
+    "dataFileName": "testCaseManual_data",
+    "dataFileVarName": "testcaseData_1638944913702",
+    "datasetName": "dataset",
+    "appName": "JasmineDemo",
+    "usedBy": {
+        "JasmineDemo": [
+            "tsManualTestCase.js"
+        ]
+    },
+    "userCode": true
+}

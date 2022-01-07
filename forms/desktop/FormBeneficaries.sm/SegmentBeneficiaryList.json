@@ -1,0 +1,227 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "lblDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "HDFC Bank"
+            },
+            "lblHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Siva Prasad G"
+            },
+            "lblStrip": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "03171100011"
+            }
+        },
+        {
+            "lblDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "HDFC Bank"
+            },
+            "lblHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Ravinder Reddy K"
+            },
+            "lblStrip": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "03171100012"
+            }
+        },
+        {
+            "lblDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ICICI Bank"
+            },
+            "lblHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "RajKumar A"
+            },
+            "lblStrip": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "03171100013"
+            }
+        },
+        {
+            "lblDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "SBI Bank"
+            },
+            "lblHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Shashi R"
+            },
+            "lblStrip": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "03171100014"
+            }
+        },
+        {
+            "lblDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PNB Bank"
+            },
+            "lblHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Prasad K"
+            },
+            "lblStrip": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "03171100015"
+            }
+        },
+        {
+            "lblDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PNB Bank"
+            },
+            "lblHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Shiva D"
+            },
+            "lblStrip": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "03171100016"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_top_": {
+        "type": "string",
+        "value": "130dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "05",
+    "desktopweb": {
+        "render": true
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "ga7cde74fef149cabfd884684410ecc9",
+    "groupcells": false,
+    "hasSections": false,
+    "id": "SegmentBeneficiaryList",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kiosk": {
+        "render": true
+    },
+    "kuid": "c55e09dcb7a747a8839f29cb41788754",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "FormBeneficaries",
+    "pf": "FormBeneficaries",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "a04a18f2faea4a7995ba76ed932bc07f",
+    "rowcounter": 5,
+    "rowfocusskin": "s2c1ce512fea4ceb942f6c311654a53a",
+    "rowskin": "sea8c7872fb04a7daf43df7274a60c22",
+    "rowtemplate": "flxSampleRowTemplate",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s904acbd43b54ea281941421fd9f048c",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "selectionbehaviorconfig": null,
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 1366,
+        "widthRatio": 0
+    },
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxSampleRowTemplate": "flxSampleRowTemplate",
+        "lblDescription": "lblDescription",
+        "lblHeading": "lblHeading",
+        "lblStrip": "lblStrip",
+        "lblTime": "lblTime"
+    },
+    "zindex": 1
+}

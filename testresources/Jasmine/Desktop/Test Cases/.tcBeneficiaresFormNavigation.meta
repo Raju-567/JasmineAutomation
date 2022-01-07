@@ -1,0 +1,90 @@
+{
+    "testCaseName": "tcBeneficiaresFormNavigation",
+    "testSuiteName": "Test Cases",
+    "channelName": "Desktop",
+    "usedBy": {
+        "JasmineDemo": [
+            "ts1.js"
+        ]
+    },
+    "steps": [
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "FormLogin.ButtonLogin",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "716d774e-a0de-82f6-c782-7021842b595f",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "FormLogin.ButtonLogin"
+                    },
+                    "appName": "JasmineDemo"
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "FormLogin.ButtonLogin",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "DeviceID": "web",
+                    "widgetPath": "FormLogin.ButtonLogin",
+                    "widgetType": "button",
+                    "actionType": "click",
+                    "appName": "JasmineDemo"
+                },
+                "UUID": "70e9f1b3-32e9-4b30-aa50-30398fd85dc9"
+            },
+            "codeNotReady": false,
+            "metaEditable": false
+        },
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "FormBeneficaries",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "4b09a8ba-c5a1-0ef2-2413-467ac266d732",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "FormBeneficaries"
+                    },
+                    "appName": "JasmineDemo"
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "_currentForm": "JasmineDemo/FormLogin",
+    "timeout": 10000,
+    "dataFileName": "tcBeneficiaresFormNavigation_data",
+    "dataFileVarName": "testcaseData_1638940636977",
+    "datasetName": "dataset",
+    "appName": "JasmineDemo"
+}

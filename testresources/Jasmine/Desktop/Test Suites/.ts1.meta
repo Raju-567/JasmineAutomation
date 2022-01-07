@@ -1,0 +1,32 @@
+{
+    "groupName": "Test Suites",
+    "testSuiteName": "ts1",
+    "testCaseInfo": [
+        {
+            "testcaseName": "tcLoginUserName.js",
+            "selectedDataset": "dataset",
+            "appName": "JasmineDemo"
+        },
+        {
+            "testcaseName": "tcLoginPassword.js",
+            "selectedDataset": "dataset",
+            "appName": "JasmineDemo"
+        },
+        {
+            "testcaseName": "tcBeneficiaresFormNavigation.js",
+            "selectedDataset": "dataset",
+            "appName": "JasmineDemo"
+        },
+        {
+            "testcaseName": "tcBeneficiaries.js",
+            "selectedDataset": "dataset",
+            "appName": "JasmineDemo"
+        }
+    ],
+    "appName": "JasmineDemo",
+    "usedBy": {
+        "JasmineDemo": [
+            "tp1.js"
+        ]
+    }
+}

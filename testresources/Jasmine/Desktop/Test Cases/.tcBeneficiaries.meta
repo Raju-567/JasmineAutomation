@@ -1,0 +1,75 @@
+{
+    "testCaseName": "tcBeneficiaries",
+    "testSuiteName": "Test Cases",
+    "channelName": "Desktop",
+    "usedBy": {
+        "JasmineDemo": []
+    },
+    "steps": [
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "FormBeneficaries.SegmentBeneficiaryList",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": true,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "f8d4d746-8759-eb77-6215-f000e18effbc",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "FormBeneficaries.SegmentBeneficiaryList"
+                    },
+                    "appName": "JasmineDemo"
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "actionName": "Assert",
+            "actionIconClassName": "assets/widget_icons/assert.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeassert.svg",
+            "entity": "FormBeneficaries.SegmentBeneficiaryList[2].lblHeading",
+            "metaEditable": true,
+            "dispMeta": {
+                "prop": "text"
+            },
+            "dataVariable": "lblHeading1638949826692",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "f59a14f9-4399-e8d5-2082-266c1467be15",
+                "messageType": "Assert",
+                "messageData": {
+                    "widgetType": "Assert",
+                    "metadata": {
+                        "assertType": "toEqual",
+                        "assertOnElement": "FormBeneficaries.SegmentBeneficiaryList[2].lblHeading",
+                        "assertOnProperty": "text",
+                        "negationEnabled": false,
+                        "dataVariable": "lblHeading1638949826692"
+                    },
+                    "appName": "JasmineDemo"
+                }
+            },
+            "codeNotReady": false,
+            "stepError": false
+        }
+    ],
+    "_currentForm": "JasmineDemo/FormBeneficaries",
+    "timeout": 0,
+    "dataFileName": "tcBeneficiaries_data",
+    "dataFileVarName": "testcaseData_1638898326400",
+    "datasetName": "dataset",
+    "appName": "JasmineDemo"
+}
